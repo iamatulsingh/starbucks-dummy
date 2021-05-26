@@ -1,0 +1,119 @@
+ header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+  }
+  
+  header .logo {
+    position: relative;
+    max-width: 70px;
+  }
+  
+  header ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header ul li {
+    list-style: none;
+    display: flex;
+    margin-left: 30px;
+  }
+  
+  header ul li * {
+    display: inline-block;
+    color: var(--black);
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .themeSwitch {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background: var(--black);
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .themeSwitch::before {
+    content: '\f186';
+    font-family: fontAwesome;
+    color: var(--white);
+    font-size: 20px;
+  }
+
+  .themeSwitch.active::before {
+    content: '\f185';
+  }
+
+  @media (max-width: 991px) {
+    header {
+      padding: 20px;
+    }
+
+    .navigation {
+      display: none;
+    }
+
+    .navigation.active {
+      display: flex;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: var(--white);
+      flex-direction: column;
+    }
+
+    header ul li {
+      margin: 10px 0;
+      margin-left: 0;
+    }
+
+    header ul li a {
+      font-size: 1.5em;
+      font-weight: 300;
+    }
+
+    .toggle {
+      position: relative;
+      width: 30px;
+      height: 30px;
+      background: url("../img/menu.png");
+      filter: invert(1);
+      background-size: 30px;
+      background-position: center;
+      background-repeat: no-repeat;
+      cursor: pointer;
+      z-index: 1000;
+    }
+
+    .toggle.active {
+      background: url("../img/close.png");
+      filter: invert(1);
+      background-size: 25px;
+      background-position: center;
+      background-repeat: no-repeat;
+      cursor: pointer;
+    }
+
+    .dark .toggle {
+      filter: invert(0);
+    }
+  }
