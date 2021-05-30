@@ -17,13 +17,13 @@ function Home() {
                 <a href="window.location">Learn More</a>
             </div>
             <div className="imgBox">
-                <img src={Img} />
+                <img src={Img} alt="imgbox"/>
             </div>
         </div>
         <ul className="sci">
-          <li><a href="window.location"><i className="fa fa-facebook" aria-hidden="true"></i></a></li>
-          <li><a href="window.location"><i className="fa fa-twitter" aria-hidden="true"></i></a></li>
-          <li><a href="window.location"><i className="fa fa-instagram" aria-hidden="true"></i></a></li>
+          <li><a href="window.location"><i className="fa fa-facebook" aria-hidden="true"></i> </a></li>
+          <li><a href="window.location"><i className="fa fa-twitter" aria-hidden="true"></i> </a></li>
+          <li><a href="window.location"><i className="fa fa-instagram" aria-hidden="true"></i> </a></li>
         </ul>
     </div>
   );
