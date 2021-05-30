@@ -1,6 +1,6 @@
 # Starbucks Dummy
 
-![CI/CD](https://github.com/imatulsingh/starbucks-dummy/workflows/CI/CD/badge.svg)
+![CI/CD](https://github.com/iamatulsingh/starbucks-dummy/actions/workflows/node.js.yml/badge.svg?event=pull_request)
 
 This is a responsive dummy landing page built on Reactjs to show how to make `responsive` website in `Reactjs` and how to use `Dark Theme` in it
 
