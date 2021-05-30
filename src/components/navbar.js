@@ -19,13 +19,13 @@ function Navbar() {
   return (
     <div>
       <header>
-          <a href="window.location"><img src={logo} alt="logo" className="logo"></img></a>
+          <a href="#/"><img src={logo} alt="logo" className="logo"></img></a>
           <div className={isSmallMenu ? "toggle" : "toggle active"} onClick={menuToggle}></div>
           <ul className={isSmallMenu ? "navigation" : "navigation active"} onClick={menuToggle}>
-              <li><a href="window.location">Home</a></li>
-              <li><a href="window.location">Menu</a></li>
-              <li><a href="window.location">What's New</a></li>
-              <li><a href="window.location">Contact</a></li>
+              <li><a href="#/">Home</a></li>
+              <li><a href="#/">Menu</a></li>
+              <li><a href="#/">What's New</a></li>
+              <li><a href="#/">Contact</a></li>
               <li><span className={isActive ? "themeSwitch" : "themeSwitch active"} onClick={updateTheme}></span></li>
           </ul>
       </header>
