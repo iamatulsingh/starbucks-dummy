@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/starbucks-dummy/static/css/main.0516e145.chunk.css",
-    "main.js": "/starbucks-dummy/static/js/main.791ce0e7.chunk.js",
-    "main.js.map": "/starbucks-dummy/static/js/main.791ce0e7.chunk.js.map",
+    "main.js": "/starbucks-dummy/static/js/main.e9adad93.chunk.js",
+    "main.js.map": "/starbucks-dummy/static/js/main.e9adad93.chunk.js.map",
     "runtime-main.js": "/starbucks-dummy/static/js/runtime-main.e4e8e582.js",
     "runtime-main.js.map": "/starbucks-dummy/static/js/runtime-main.e4e8e582.js.map",
     "static/js/2.c88f7087.chunk.js": "/starbucks-dummy/static/js/2.c88f7087.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.e4e8e582.js",
     "static/js/2.c88f7087.chunk.js",
     "static/css/main.0516e145.chunk.css",
-    "static/js/main.791ce0e7.chunk.js"
+    "static/js/main.e9adad93.chunk.js"
   ]
 }
