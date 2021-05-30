@@ -14,16 +14,16 @@ function Home() {
                     It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop 
                     publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                 </p>
-                <a href="window.location">Learn More</a>
+                <a href="#/">Learn More</a>
             </div>
             <div className="imgBox">
                 <img src={Img} alt="imgbox"/>
             </div>
         </div>
         <ul className="sci">
-          <li><a href="window.location"><i className="fa fa-facebook" aria-hidden="true"></i> </a></li>
-          <li><a href="window.location"><i className="fa fa-twitter" aria-hidden="true"></i> </a></li>
-          <li><a href="window.location"><i className="fa fa-instagram" aria-hidden="true"></i> </a></li>
+          <li><a href="#/"><i className="fa fa-facebook" aria-hidden="true"></i> </a></li>
+          <li><a href="#/"><i className="fa fa-twitter" aria-hidden="true"></i> </a></li>
+          <li><a href="#/"><i className="fa fa-instagram" aria-hidden="true"></i> </a></li>
         </ul>
     </div>
   );
