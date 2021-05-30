@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/starbucks-dummy/static/css/main.0516e145.chunk.css",
+    "main.js": "/starbucks-dummy/static/js/main.cbd1bcb4.chunk.js",
+    "main.js.map": "/starbucks-dummy/static/js/main.cbd1bcb4.chunk.js.map",
+    "runtime-main.js": "/starbucks-dummy/static/js/runtime-main.e4e8e582.js",
+    "runtime-main.js.map": "/starbucks-dummy/static/js/runtime-main.e4e8e582.js.map",
+    "static/js/2.c88f7087.chunk.js": "/starbucks-dummy/static/js/2.c88f7087.chunk.js",
+    "static/js/2.c88f7087.chunk.js.map": "/starbucks-dummy/static/js/2.c88f7087.chunk.js.map",
+    "index.html": "/starbucks-dummy/index.html",
+    "static/css/main.0516e145.chunk.css.map": "/starbucks-dummy/static/css/main.0516e145.chunk.css.map",
+    "static/js/2.c88f7087.chunk.js.LICENSE.txt": "/starbucks-dummy/static/js/2.c88f7087.chunk.js.LICENSE.txt",
+    "static/media/img.592c18f9.png": "/starbucks-dummy/static/media/img.592c18f9.png",
+    "static/media/logo.766153cb.png": "/starbucks-dummy/static/media/logo.766153cb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e4e8e582.js",
+    "static/js/2.c88f7087.chunk.js",
+    "static/css/main.0516e145.chunk.css",
+    "static/js/main.cbd1bcb4.chunk.js"
+  ]
+}
