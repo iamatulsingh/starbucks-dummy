@@ -19,7 +19,7 @@ function Navbar() {
   return (
     <div>
       <header>
-          <a href="window.location"><img src={logo} className="logo"></img></a>
+          <a href="window.location"><img src={logo} alt="logo" className="logo"></img></a>
           <div className={isSmallMenu ? "toggle" : "toggle active"} onClick={menuToggle}></div>
           <ul className={isSmallMenu ? "navigation" : "navigation active"} onClick={menuToggle}>
               <li><a href="window.location">Home</a></li>
