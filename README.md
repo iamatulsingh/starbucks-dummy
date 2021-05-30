@@ -6,6 +6,9 @@ This is a responsive dummy landing page built on Reactjs to show how to make `re
 
 <img src="screenshots/demo.gif" alt="demo gif alt" />
 
+### Images Credit
+`https://www.starbucks.com/`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
